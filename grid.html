@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="img/A2Z-logo.svg" alt="" />
+      <div class="inputfield">
+        <p>
+          All categories
+          <select></select>
+        </p>
+        <input type="text" placeholder="search here" />
+        <button id="search">
+          <img src="img/Icon awesome-search.svg" alt="" />
+        </button>
+      </div>
+      <div class="userinfo">
+        <img src="img/Mask Group 69.svg" alt="" />
+        <p>Name</p>
+        <select></select>
+      </div>
+      <div class="cartinfo">
+        <img src="img/Icon zocial-cart.svg" alt="" />
+        <p>Item in Cart</p>
+        <select></select>
+      </div>
+      <div class="hiddenicons">
+        <img src="img/search.svg" alt="" />
+        <img src="img/scart.svg" alt="" />
+        <img src="img/menuicon.svg" alt="" onclick='open()'/>
+        <div class="menu" id="menuoption">
+          <p>Sign in</p>
+          <p>Login</p>
+          <button onclick="close()">close</button>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="popular">
+     <p>Choose your products</p>
+     <div class="popularinfo">
+      <p>show products:</p>
+      <button>30 <select></select></button>
+      <p>sort: </p>
+      <button> popular <select></select></button>
+     </div>
+    </div>
+     <section class="grid">
+      <div class="card">
+        <img src="img/pngegg (16).png" alt="" />
+        <div class="info">
+          <p>
+            Mandlbaum's <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+        <div class="heart">
+         <img src="img/heart.svg"id='heart' alt="">
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid2.png"  alt=""/>
+        <div class="info">
+          <p>
+            Headphone<br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid3.png" alt="" />
+        <div class="info">
+          <p>
+            Cycling <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid4.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid5.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid6.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid7.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid8.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid9.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid10.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid11.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid12.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid13.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid14.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid15.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/grid16.png" alt="" />
+        <div class="info">
+          <p>
+            RoboNinja <br />
+            $199.9
+          </p>
+          <button>Add to cart</button>
+        </div>
+      </div>
+    </section>
+      <div class="subscribe">
+      <h1>Subscribe to our newsletter and<br>
+receive exclusive offers every week</h1>
+        <div class="subscriptionfield">
+          <input type="text"placeholder='Enter your email'>
+          <button id="subbutton">SUBSCRIBE</button>
+        </div>
+    </div>
+    <footer>
+      <img src="img/A2Z-black.svg" alt="">
+      <p>High-quality materials are made just for you. Designed for modern Guys and Girls</p>
+      <h5>Contact</h5>
+      <p id="number">tshirt@a2z.com  |  Hotline: +1 131 138 138</p>
+      <hr>
+      <p>DESIGN BY PRINTARO - © 2022. ALL RIGHTS RESERVED.</p>
+
+    </footer>
+
+
+    

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <img src="img/A2Z-logo.svg" alt="" />
+      <div class="inputfield">
+        <p>
+          All categories
+          <select></select>
+        </p>
+        <input type="text" placeholder="search here" />
+        <button id="search">
+          <img src="img/Icon awesome-search.svg" alt="" />
+        </button>
+      </div>
+      <div class="userinfo">
+        <img src="img/Mask Group 69.svg" alt="" />
+        <p>Name</p>
+        <select></select>
+      </div>
+      <div class="cartinfo">
+        <img src="img/Icon zocial-cart.svg" alt="" />
+        <p>Item in Cart</p>
+        <select></select>
+      </div>
+      <div class="hiddenicons">
+        <img src="img/search.svg" alt="" />
+        <img src="img/scart.svg" alt="" />
+        <img src="img/menuicon.svg" alt="" onclick='open()'/>
+        <div class="menu" id="menuoption">
+          <p>Sign in</p>
+          <p>Login</p>
+          <button onclick="close()">close</button>
+        </div>
+      </div>
+    </nav>
+    <div class="login">
+    <section class="first">
+      <img src="img/banner.png" alt="" />
+    </section>
+    <section class="featuredrecomendations">
+      <h3 class="heading1">
+        Your recently viewed items & featured recomendations
+      </h3>
+      <div class="arrows">
+        <i class="fas fa-arrow-left previous"></i>
+        <i class="fas fa-arrow-right nexts"></i>
+        <div class="post-slider">
+          <div class="item1">
+            <img src="img/headphone.png" alt="" class="headphones" />
+            <h4 class="productname">Headphones</h4>
+            <h5 class="description">BEATS BY DR.DRE</h5>
+            <h3 class="cost">$200</h3>
+          </div>
+          <div class="item1" style="width: 250px">
+            <img src="img/watch.png" alt="" class="headphones" />
+            <h4 class="productname">Headphones</h4>
+            <h5 class="description">BEATS BY DR.DRE</h5>
+            <h3 class="cost">$200</h3>
+          </div>
+          <div class="item1">
+            <img src="img/shoes.png" alt="" class="headphones" />
+            <h4 class="productname">Headphones</h4>
+            <h5 class="description">BEATS BY DR.DRE</h5>
+            <h3 class="cost">$200</h3>
+          </div>
+          <div class="item1">
+            <img src="img/luggage.png" alt="" class="headphones" />
+            <h4 class="productname">Headphones</h4>
+            <h5 class="description">BEATS BY DR.DRE</h5>
+            <h3 class="cost">$200</h3>
+          </div>
+          <div class="item1">
+            <img src="img/jacket.png" alt="" class="headphones" />
+            <h4 class="productname">Headphones</h4>
+            <h5 class="description">BEATS BY DR.DRE</h5>
+            <h3 class="cost">$200</h3>
+          </div>
+        </div>
+      </div>
+      <div class="input">
+       <h3>Login</h3>
+       <p>Lorem Ipsum</p>
+       <input type="text" name="" id=""placeholder='Email'><br>
+       <input type="password" name="" id="" placeholder='password'>
+       <div class="checkbox">
+        <input type="checkbox">
+        <p>Keep me signed in</p>
+
+        <p>forgot password?</p>
+       </div>
+       <button>Sign in</button>
+       <div class="signed">
+        <p>Not a member Yet</p>
+        <a href="">Sign up</a>
+       </div>
+
+      </div>
+      </div>
+      
+    </section>
+    <!---------------Post Slidder--------------------------->
+    <div class="page-wrapper">
+      <h4 class="todaysdetails">Amazing-Today's Deals</h4>
+
+      <div class="posts-slider">
+        <i class="fas fa-arrow-left prev"></i>
+        <i class="fas fa-arrow-right next"></i>
+        <div class="post-wrapper">
+          <div class="post">
+            <img src="img/shirt-1.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Mandelbaum’s<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="img/shirt-2.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Winter Camp<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="img/shirt-3.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Cycling<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="post">
+            <img src="img/shirt-4.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Robo Ninja<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="img/shirt-5.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Winter Camp<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="img/shirt-6.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Cycling<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------- Designed for you ------------------------>
+
+    <div class="page-wrapper">
+      <h4 class="todaysdetails">Designs for your tees today</h4>
+
+      <div class="posts-slider1">
+        <i class="fas fa-arrow-left pre"></i>
+        <i class="fas fa-arrow-right nex"></i>
+        <div class="posts-wrapper">
+          <div class="post">
+            <img src="img/shirt-1.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Mandelbaum’s<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="img/shirt-2.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Winter Camp<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="img/shirt-3.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Cycling<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+
+          <div class="post">
+            <img src="img/shirt-4.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Robo Ninja<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="img/shirt-5.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Winter Camp<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="img/shirt-6.png" class="slider-image" />
+
+            <div class="post-info">
+              <h2 class="productnames">Cycling<br />$19.99</h2>
+              <button class="cartbutton">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subscribe">
+      <h1>Subscribe to our newsletter and<br>
+receive exclusive offers every week</h1>
+        <div class="subscriptionfield">
+          <input type="text"placeholder='Enter your email'>
+          <button id="subbutton">SUBSCRIBE</button>
+        </div>
+    </div>
+    <footer>
+      <img src="img/A2Z-black.svg" alt="">
+      <p>High-quality materials are made just for you. Designed for modern Guys and Girls</p>
+      <h5>Contact</h5>
+      <p id="number">tshirt@a2z.com  |  Hotline: +1 131 138 138</p>
+      <hr>
+      <p>DESIGN BY PRINTARO - © 2022. ALL RIGHTS RESERVED.</p>
+
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".post-slider").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: false,
+          dots: false,
+          autoplaySpeed: 2000,
+          nextArrow: $(".nexts"),
+          prevArrow: $(".previous"),
+
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: false,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ],
+        });
+        $(".post-wrapper").slick({
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 2000,
+          nextArrow: $(".next"),
+          prevArrow: $(".prev"),
+
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: false,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: false,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ],
+        });
+        $(".posts-wrapper").slick({
+          slidesToShow: 5,
+          slidesToScroll: 1,
+          autoplay: false,
+          autoplaySpeed: 2000,
+          nextArrow: $(".nex"),
+          prevArrow: $(".pre"),
+
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: false,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                infinite: false,
+                dots: false,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ],
+        });
+      });
+    </script>
+    <script type="text/javascript">
+      function open(){
+        document.getElementById('menuoption').style.display='block'
+      }
+      
+    </script>
+  </body>
+</html>
